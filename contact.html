@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/bmw.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/bmw.png" alt="BMW Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="cars.html" target="_blank">Cars</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <!-- 1st section that contains a special deal -->
+        <div class="contact-section special-deal">
+            <h2>Special BMW Car Deal</h2>
+            <p>Looking for an unbeatable deal on a BMW? You're in luck! We are currently offering an exclusive special deal on select BMW models. Whether you're interested in a powerful sedan, a versatile SUV, or an eco-friendly electric car, our limited-time offer has something for everyone. Don't miss out on this opportunity to drive home your dream BMW at an incredible price. Contact us today to learn more and take advantage of this special deal!</p>
+        </div>
+        <!-- 2nd section that contains BMW cars available for sale -->
+        <div class="contact-section available-cars">
+            <h2>Available BMW Cars for Sale</h2>
+            <ul class="car-list">
+                <li><span class="car-name">BMW 3 Series</span></li>
+                <li><span class="car-name">BMW 5 Series</span></li>
+                <li><span class="car-name">BMW X3</span></li>
+                <li><span class="car-name">BMW X5</span></li>
+                <li><span class="car-name">BMW 7 Series</span></li>
+                <li><span class="car-name">BMW M2 Competition</span></li>
+                <li><span class="car-name">BMW i4 Electric</span></li>
+            </ul>
+        </div>
+        <!-- 3rd section that contains a form to be filled by the customer that needs to purchase a car and a download button to download a car image -->
+        <div class="contact-section contact-form">
+            <h2>Contact Us</h2>
+            <!-- get method to let the info filled in the form appear in the URL of the page -->
+            <form method="get">
+                <div class="form-group">
+                    <!-- for and id to link the label to the input and to present the entered data well -->
+                    <!-- text type because the customer needs to add text to this field -->
+                    <!-- name to identify the field -->
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <!-- tel type because the customer needs to add a phone number to this field -->
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phone-number" required>
+                </div>
+                <div class="form-group">
+                    <!-- email type because the customer needs to add an email to this field which should contain an @ to be a valid input -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+                <div class="form-group">
+                    <!-- a drop down to select from it the car color -->
+                    <label for="car-color">Car Color:</label>
+                    <select id="car-color" name="car-color" required>
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <!-- a radio choice to choose between cash and debit -->
+                    <label for="payment-method">Payment Method:</label>
+                    <div class="payment-options">
+                        <label for="cash">
+                            <input type="radio" id="cash" name="payment-method" value="Cash" required> Cash
+                        </label>
+                        <label for="debit">
+                            <input type="radio" id="debit" name="payment-method" value="Debit" required> Debit
+                        </label>
+                    </div>
+                </div>
+                <!-- a button of type submit that send the data entered in the field when we press on it -->
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+            <div class="download-button">
+                <!-- a link for an external image to be downloaded when we click on the button -->
+                <a href="https://images.pexels.com/photos/2127039/pexels-photo-2127039.jpeg?cs=srgb&dl=pexels-maria-geller-2127039.jpg&fm=jpg&_gl=1*11niy5b*_ga*MTYzNjU2NzI1Ny4xNjk0ODI4MTM3*_ga_8JE65Q40S6*MTY5NDgyODEzOC4xLjEuMTY5NDgyODE0OS4wLjAuMA.." download="https://images.pexels.com/photos/2127039/pexels-photo-2127039.jpeg?cs=srgb&dl=pexels-maria-geller-2127039.jpg&fm=jpg&_gl=1*11niy5b*_ga*MTYzNjU2NzI1Ny4xNjk0ODI4MTM3*_ga_8JE65Q40S6*MTY5NDgyODEzOC4xLjEuMTY5NDgyODE0OS4wLjAuMA..">
+                    <button class="download-button">Download Car Image</button>
+                </a>
+            </div>
+        </div>    
+    </div>    
+    <footer>
+        <div class="footer-links">
+            <a href="https://www.bmw.com" target="_blank">Official BMW Website</a>
+            <a href="https://www.instagram.com/bmw" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/company/bmw-group" target="_blank">LinkedIn</a>
+        </div>
+        <div class="copyright">
+            &copy; 2023 OLA - All Rights Reserved
+        </div>
+    </footer>
+</body>
+</html>

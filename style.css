@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+nav {
+    background-color: #001f2d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-grow: 1; 
+}
+
+.menu li {
+    margin-right: 30px; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.intro {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #001f2d; 
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.video-container {
+    position: relative;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+
+#intro-video {
+    width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.achievement p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h2, h3 {
+    color: #001f2d; 
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.achievements {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: left;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.achievement {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.achievement img {
+    max-width: 100%;
+    height: auto;
+}
+
+.achievement h3 {
+    font-size: 24px; 
+    margin: 10px 0;
+}
+
+.biography {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+.biography h2 {
+    font-size: 30px; 
+    margin-bottom: 20px; 
+    color: #001f2d; 
+    margin: 0 auto; 
+    padding-left: 20px; 
+
+}
+
+.biography p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+    color: #333; 
+    margin: 0 auto; 
+    padding: 20px; 
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #001f2d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+
+.car-section {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.car-cards-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.car-card {
+    width: 300px; 
+    margin: 10px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.car-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.car-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.best-models {
+    text-align: center;
+    padding: 20px;
+}
+
+.model-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+dt {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #001f2d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+dd {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    color: #333;
+    text-align: left;
+}
+
+dd p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.table-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.series-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.series-table th, .series-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.series-table th {
+    background-color: #001f2d;
+    color: #fff;
+    font-weight: bold;
+}
+
+.series-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.special-deal {
+    padding: 40px;
+    text-align: center;
+}
+
+.special-deal h2 {
+    font-size: 36px;
+    color: #001f2d; 
+    margin-bottom: 20px;
+}
+
+.special-deal p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; 
+    margin-bottom: 15px;
+}
+
+.available-cars {
+    text-align: center;
+    padding: 40px;
+}
+
+.available-cars h2 {
+    font-size: 36px;
+    color: #001f2d;
+    margin-bottom: 20px;
+}
+
+.car-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-list li {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.car-list li:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.car-name {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.contact-form {
+    text-align: left;
+    padding: 40px;
+}
+
+.contact-form h2 {
+    font-size: 36px;
+    color: #001f2d;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.form-group select {
+    height: 40px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.submit-button {
+    background-color: #001f2d;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.download-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-button .download-button {
+    background-color: #001f2d;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.download-button .download-button:hover {
+    background-color: #0056b3;
+}
+
+.payment-options {
+    display: flex;
+    align-items: center;
+}
+
+.payment-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+.payment-options label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+}
